@@ -1,0 +1,43 @@
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+
+# Golang build files
+/vendor/
+/bin/
+/pkg/
+
+# Test files
+*_test.go
+*.test
+*.cache
+
+# Log files
+*.log
+
+# Generated files
+*.pb.go
+*.gen.go
+*.swagger.json
+*.swagger.yaml
+
+# IDE files and configuration
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Dependency management files
+go.sum
+go.mod
+
+# Environment variables
+.env
+
+# Whitepapers folder
+/whitepapers/
