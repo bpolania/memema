@@ -23,6 +23,9 @@ cd meme-coin-generator
 ```
 go get -u github.com/ethereum/go-ethereum
 go get -u github.com/joho/godotenv
+go get github.com/VictoriaMetrics/fastcache@v1.5.7
+go get github.com/ethereum/go-ethereum/internal/ethapi@v1.10.3
+go get github.com/ethereum/go-ethereum/console/prompt@v1.10.3
 ```
 
 ## Configuration
